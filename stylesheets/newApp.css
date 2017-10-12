@@ -1,0 +1,3020 @@
+@charset "UTF-8";
+/* ================================================================================== START extra style*/
+/*  Site Background */
+/* line 5, ../sass/newApp.scss */
+body {
+  background-color: #FFFFFF;
+}
+
+/* line 9, ../sass/newApp.scss */
+.internalFeatures,
+.internalConfiguration {
+  display: none;
+}
+
+/* line 14, ../sass/newApp.scss */
+tr,
+td {
+  border: 1px solid #C8C7C7;
+  padding: 10px;
+}
+
+/* Skin Color #1 */
+/* ================================================================================== END BOOTSTRAP MENU STYLE*/
+/* ================================================================================== START  FANCY BOX*/
+/* line 26, ../sass/newApp.scss */
+#lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  line-height: 0;
+}
+/* line 33, ../sass/newApp.scss */
+#lightbox img {
+  width: auto;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+/* line 39, ../sass/newApp.scss */
+#lightbox a img {
+  border: none;
+}
+
+/* line 44, ../sass/newApp.scss */
+#outerImageContainer {
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+/* line 52, ../sass/newApp.scss */
+#imageContainer {
+  padding: 10px;
+}
+
+/* line 56, ../sass/newApp.scss */
+#loading {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 66, ../sass/newApp.scss */
+#hoverNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 75, ../sass/newApp.scss */
+#imageContainer > #hoverNav {
+  left: 0;
+}
+
+/* line 79, ../sass/newApp.scss */
+#hoverNav a {
+  outline: none;
+}
+
+/* line 83, ../sass/newApp.scss */
+#prevLink,
+#nextLink {
+  width: 49%;
+  height: 100%;
+  background-image: url(../images/lightbox/blank.gif);
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 92, ../sass/newApp.scss */
+#prevLink {
+  left: 0;
+  float: left;
+}
+
+/* line 97, ../sass/newApp.scss */
+#nextLink {
+  right: 0;
+  float: right;
+}
+
+/* line 102, ../sass/newApp.scss */
+#prevLink {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+/* line 104, ../sass/newApp.scss */
+#prevLink:visited:hover {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+
+/* line 109, ../sass/newApp.scss */
+#nextLink {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+/* line 111, ../sass/newApp.scss */
+#nextLink:visited:hover {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+
+/* line 116, ../sass/newApp.scss */
+#imageDataContainer {
+  font: 10px Verdana, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 1.4em;
+  overflow: auto;
+  width: 100%;
+}
+
+/* line 125, ../sass/newApp.scss */
+#imageData {
+  padding: 0 10px;
+  color: #666;
+}
+/* line 128, ../sass/newApp.scss */
+#imageData #imageDetails {
+  width: 70%;
+  float: left;
+  text-align: left;
+}
+/* line 133, ../sass/newApp.scss */
+#imageData #caption {
+  font-weight: bold;
+}
+/* line 136, ../sass/newApp.scss */
+#imageData #numberDisplay {
+  display: block;
+  clear: left;
+  padding-bottom: 1.0em;
+}
+/* line 141, ../sass/newApp.scss */
+#imageData #bottomNavClose {
+  width: 66px;
+  float: right;
+  padding-bottom: 0.7em;
+  outline: none;
+}
+
+/* line 149, ../sass/newApp.scss */
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+}
+
+/* ================================================================================== END FANCY BOX*/
+/* ================================================================================== START  EASYLIGHT*/
+/* line 163, ../sass/newApp.scss */
+#lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  line-height: 0;
+}
+/* line 170, ../sass/newApp.scss */
+#lightbox img {
+  width: auto;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+/* line 176, ../sass/newApp.scss */
+#lightbox a img {
+  border: none;
+}
+
+/* line 181, ../sass/newApp.scss */
+#outerImageContainer {
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+/* line 189, ../sass/newApp.scss */
+#imageContainer {
+  padding: 10px;
+}
+
+/* line 193, ../sass/newApp.scss */
+#loading {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 203, ../sass/newApp.scss */
+#hoverNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 212, ../sass/newApp.scss */
+#imageContainer > #hoverNav {
+  left: 0;
+}
+
+/* line 216, ../sass/newApp.scss */
+#hoverNav a {
+  outline: none;
+}
+
+/* line 220, ../sass/newApp.scss */
+#prevLink,
+#nextLink {
+  width: 49%;
+  height: 100%;
+  background-image: url(../images/lightbox/blank.gif);
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 229, ../sass/newApp.scss */
+#prevLink {
+  left: 0;
+  float: left;
+}
+
+/* line 234, ../sass/newApp.scss */
+#nextLink {
+  right: 0;
+  float: right;
+}
+
+/* line 239, ../sass/newApp.scss */
+#prevLink {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+/* line 241, ../sass/newApp.scss */
+#prevLink:visited:hover {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+
+/* line 246, ../sass/newApp.scss */
+#nextLink {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+/* line 248, ../sass/newApp.scss */
+#nextLink:visited:hover {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+
+/* line 253, ../sass/newApp.scss */
+#imageDataContainer {
+  font: 10px Verdana, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 1.4em;
+  overflow: auto;
+  width: 100%;
+}
+
+/* line 262, ../sass/newApp.scss */
+#imageData {
+  padding: 0 10px;
+  color: #666;
+}
+/* line 265, ../sass/newApp.scss */
+#imageData #imageDetails {
+  width: 70%;
+  float: left;
+  text-align: left;
+}
+/* line 270, ../sass/newApp.scss */
+#imageData #caption {
+  font-weight: bold;
+}
+/* line 273, ../sass/newApp.scss */
+#imageData #numberDisplay {
+  display: block;
+  clear: left;
+  padding-bottom: 1.0em;
+}
+/* line 278, ../sass/newApp.scss */
+#imageData #bottomNavClose {
+  width: 66px;
+  float: right;
+  padding-bottom: 0.7em;
+  outline: none;
+}
+
+/* line 286, ../sass/newApp.scss */
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+}
+
+/* ================================================================================== START BOOTSTRAP MENU STYLE*/
+/* line 298, ../sass/newApp.scss */
+.fade.in {
+  opacity: 1;
+}
+
+/* line 302, ../sass/newApp.scss */
+.dropdown-menu .dropdown-submenu .dropdown-menu > li {
+  padding: 0px 10px;
+}
+/* line 304, ../sass/newApp.scss */
+.dropdown-menu .dropdown-submenu .dropdown-menu > li > a {
+  font-weight: 400 !important;
+}
+
+/* line 309, ../sass/newApp.scss */
+.collapse {
+  display: none;
+}
+/* line 311, ../sass/newApp.scss */
+.collapse.in {
+  display: block;
+}
+
+/* line 316, ../sass/newApp.scss */
+tr.collapse.in {
+  display: table-row;
+}
+
+/* line 320, ../sass/newApp.scss */
+.mm-menu.mm-offcanvas.mm-fullscreen {
+  z-index: 99;
+}
+
+/* line 325, ../sass/newApp.scss */
+.mh-btns-left .fa {
+  background: #b2a074;
+  border-radius: 50px;
+  height: 48px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  margin-top: -20px;
+  color: #fff;
+  font-size: 30px;
+}
+/* line 336, ../sass/newApp.scss */
+.mh-btns-left .mh-text {
+  line-height: 13px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+/* line 345, ../sass/newApp.scss */
+tbody.collapse.in {
+  display: table-row-group;
+}
+
+/* line 349, ../sass/newApp.scss */
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
+  transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+}
+
+/* line 364, ../sass/newApp.scss */
+.caret {
+  display: none;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-top: 4px solid \9;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+}
+
+/* line 376, ../sass/newApp.scss */
+.dropup,
+.dropdown {
+  position: relative;
+}
+
+/* line 381, ../sass/newApp.scss */
+.dropdown-toggle:focus {
+  outline: 0;
+}
+
+/* line 385, ../sass/newApp.scss */
+.dropdown-menu {
+  position: absolute;
+  top: 60%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 0 !important;
+  width: 772px;
+  transform: translate(50%, 0%);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #b2a074;
+}
+/* line 402, ../sass/newApp.scss */
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+/* line 406, ../sass/newApp.scss */
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+/* line 413, ../sass/newApp.scss */
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.42857143;
+  color: #fff;
+  white-space: nowrap;
+  font-weight: 900;
+}
+/* line 422, ../sass/newApp.scss */
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+/* line 429, ../sass/newApp.scss */
+.dropdown-menu > .active > a {
+  color: #000;
+  text-decoration: none;
+  outline: 0;
+  background-color: #fff;
+}
+/* line 434, ../sass/newApp.scss */
+.dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+  color: #000;
+  text-decoration: none;
+  outline: 0;
+  background-color: #fff;
+}
+/* line 442, ../sass/newApp.scss */
+.dropdown-menu > .disabled > a {
+  color: #777777;
+}
+/* line 444, ../sass/newApp.scss */
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  color: #777777;
+}
+/* line 448, ../sass/newApp.scss */
+.dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  cursor: not-allowed;
+}
+
+/* line 461, ../sass/newApp.scss */
+.open > .dropdown-menu {
+  display: block;
+}
+/* line 464, ../sass/newApp.scss */
+.open > a {
+  outline: 0;
+}
+
+/* line 469, ../sass/newApp.scss */
+.dropdown-menu-right {
+  left: auto;
+  right: 0;
+}
+
+/* line 474, ../sass/newApp.scss */
+.dropdown-menu-left {
+  left: 0;
+  right: auto;
+}
+
+/* line 479, ../sass/newApp.scss */
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.42857143;
+  color: #777777;
+  white-space: nowrap;
+}
+
+/* line 488, ../sass/newApp.scss */
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+
+/* line 497, ../sass/newApp.scss */
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+/* line 502, ../sass/newApp.scss */
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0;
+  border-bottom: 4px dashed;
+  border-bottom: 4px solid \9;
+  content: "";
+}
+
+/* line 510, ../sass/newApp.scss */
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 2px;
+}
+
+@media (min-width: 768px) {
+  /* line 519, ../sass/newApp.scss */
+  .navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+  }
+  /* line 523, ../sass/newApp.scss */
+  .navbar-right .dropdown-menu-left {
+    left: 0;
+    right: auto;
+  }
+}
+/* line 530, ../sass/newApp.scss */
+.nav {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+/* line 534, ../sass/newApp.scss */
+.nav > li {
+  position: relative;
+  display: block;
+}
+/* line 537, ../sass/newApp.scss */
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+/* line 541, ../sass/newApp.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+/* line 547, ../sass/newApp.scss */
+.nav > li.disabled > a {
+  color: #777777;
+}
+/* line 549, ../sass/newApp.scss */
+.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+  color: #777777;
+  text-decoration: none;
+  background-color: transparent;
+  cursor: not-allowed;
+}
+/* line 558, ../sass/newApp.scss */
+.nav .open > a {
+  background-color: #eeeeee;
+  border-color: #337ab7;
+}
+/* line 561, ../sass/newApp.scss */
+.nav .open > a:hover, .nav .open > a:focus {
+  background-color: #eeeeee;
+  border-color: #337ab7;
+}
+/* line 567, ../sass/newApp.scss */
+.nav .nav-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+/* line 573, ../sass/newApp.scss */
+.nav > li > a > img {
+  max-width: none;
+}
+
+/* line 578, ../sass/newApp.scss */
+.nav-tabs {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 580, ../sass/newApp.scss */
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+/* line 583, ../sass/newApp.scss */
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+}
+/* line 588, ../sass/newApp.scss */
+.nav-tabs > li > a:hover {
+  border-color: #eeeeee #eeeeee #dddddd;
+}
+/* line 592, ../sass/newApp.scss */
+.nav-tabs > li.active > a {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+/* line 598, ../sass/newApp.scss */
+.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-bottom-color: transparent;
+  cursor: default;
+}
+/* line 608, ../sass/newApp.scss */
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+/* line 612, ../sass/newApp.scss */
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+/* line 614, ../sass/newApp.scss */
+.nav-tabs.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 619, ../sass/newApp.scss */
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+/* line 623, ../sass/newApp.scss */
+.nav-tabs.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+/* line 627, ../sass/newApp.scss */
+.nav-tabs.nav-justified > .active > a {
+  border: 1px solid #dddddd;
+}
+/* line 629, ../sass/newApp.scss */
+.nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+
+@media (min-width: 768px) {
+  /* line 639, ../sass/newApp.scss */
+  .nav-tabs.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  /* line 642, ../sass/newApp.scss */
+  .nav-tabs.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 650, ../sass/newApp.scss */
+  .nav-tabs.nav-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  /* line 654, ../sass/newApp.scss */
+  .nav-tabs.nav-justified > .active > a {
+    border-bottom-color: #ffffff;
+  }
+  /* line 656, ../sass/newApp.scss */
+  .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+/* line 664, ../sass/newApp.scss */
+.nav-pills > li {
+  float: left;
+}
+/* line 666, ../sass/newApp.scss */
+.nav-pills > li > a {
+  border-radius: 4px;
+}
+/* line 669, ../sass/newApp.scss */
+.nav-pills > li + li {
+  margin-left: 2px;
+}
+/* line 672, ../sass/newApp.scss */
+.nav-pills > li.active > a {
+  color: #ffffff;
+  background-color: #337ab7;
+}
+/* line 675, ../sass/newApp.scss */
+.nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: #337ab7;
+}
+
+/* line 683, ../sass/newApp.scss */
+.nav-stacked > li {
+  float: none;
+}
+/* line 685, ../sass/newApp.scss */
+.nav-stacked > li + li {
+  margin-top: 2px;
+  margin-left: 0;
+}
+
+/* line 691, ../sass/newApp.scss */
+.nav-justified {
+  width: 100%;
+}
+/* line 694, ../sass/newApp.scss */
+.nav-justified > li {
+  float: none;
+}
+/* line 696, ../sass/newApp.scss */
+.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 701, ../sass/newApp.scss */
+.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 709, ../sass/newApp.scss */
+  .nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  /* line 712, ../sass/newApp.scss */
+  .nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+/* line 718, ../sass/newApp.scss */
+.nav-tabs-justified {
+  border-bottom: 0;
+}
+/* line 721, ../sass/newApp.scss */
+.nav-tabs-justified > li > a {
+  margin-right: 0;
+  border-radius: 4px;
+}
+/* line 725, ../sass/newApp.scss */
+.nav-tabs-justified > .active > a {
+  border: 1px solid #dddddd;
+}
+/* line 727, ../sass/newApp.scss */
+.nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus {
+  border: 1px solid #dddddd;
+}
+
+@media (min-width: 768px) {
+  /* line 737, ../sass/newApp.scss */
+  .nav-tabs-justified > li > a {
+    border-bottom: 1px solid #dddddd;
+    border-radius: 4px 4px 0 0;
+  }
+  /* line 741, ../sass/newApp.scss */
+  .nav-tabs-justified > .active > a {
+    border-bottom-color: #ffffff;
+  }
+  /* line 743, ../sass/newApp.scss */
+  .nav-tabs-justified > .active > a:hover, .nav-tabs-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+/* line 752, ../sass/newApp.scss */
+.tab-content > .tab-pane {
+  display: none;
+}
+/* line 755, ../sass/newApp.scss */
+.tab-content > .active {
+  display: block;
+}
+
+/* line 760, ../sass/newApp.scss */
+.nav-tabs .dropdown-menu {
+  margin-top: -1px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+/* line 766, ../sass/newApp.scss */
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+}
+
+@media (min-width: 768px) {
+  /* line 774, ../sass/newApp.scss */
+  .navbar {
+    border-radius: 4px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 780, ../sass/newApp.scss */
+  .navbar-header {
+    float: left;
+  }
+}
+/* line 785, ../sass/newApp.scss */
+.navbar-collapse {
+  overflow-x: visible;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  -webkit-overflow-scrolling: touch;
+}
+/* line 793, ../sass/newApp.scss */
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+
+@media (min-width: 768px) {
+  /* line 799, ../sass/newApp.scss */
+  .navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  /* line 804, ../sass/newApp.scss */
+  .navbar-collapse.collapse {
+    display: block !important;
+    height: auto !important;
+    padding-bottom: 0;
+    overflow: visible !important;
+  }
+  /* line 810, ../sass/newApp.scss */
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+
+  /* line 814, ../sass/newApp.scss */
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-static-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* line 822, ../sass/newApp.scss */
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: 340px;
+}
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+  /* line 828, ../sass/newApp.scss */
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 200px;
+  }
+}
+/* line 834, ../sass/newApp.scss */
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+  /* line 843, ../sass/newApp.scss */
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+/* line 852, ../sass/newApp.scss */
+.navbar-static-top {
+  z-index: 1000;
+  border-width: 0 0 1px;
+}
+
+@media (min-width: 768px) {
+  /* line 858, ../sass/newApp.scss */
+  .navbar-static-top {
+    border-radius: 0;
+  }
+}
+/* line 863, ../sass/newApp.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+@media (min-width: 768px) {
+  /* line 872, ../sass/newApp.scss */
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
+    border-radius: 0;
+  }
+}
+/* line 878, ../sass/newApp.scss */
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+}
+
+/* line 883, ../sass/newApp.scss */
+.navbar-fixed-bottom {
+  bottom: 0;
+  margin-bottom: 0;
+  border-width: 1px 0 0;
+}
+
+/* line 889, ../sass/newApp.scss */
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  height: 50px;
+}
+/* line 895, ../sass/newApp.scss */
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+}
+/* line 899, ../sass/newApp.scss */
+.navbar-brand > img {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  /* line 906, ../sass/newApp.scss */
+  .navbar > .container .navbar-brand,
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+  }
+}
+/* line 913, ../sass/newApp.scss */
+.navbar-toggle {
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+/* line 924, ../sass/newApp.scss */
+.navbar-toggle:focus {
+  outline: 0;
+}
+/* line 927, ../sass/newApp.scss */
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 1px;
+}
+/* line 932, ../sass/newApp.scss */
+.navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 4px;
+}
+
+@media (min-width: 768px) {
+  /* line 939, ../sass/newApp.scss */
+  .navbar-toggle {
+    display: none;
+  }
+}
+/* line 944, ../sass/newApp.scss */
+.navbar-nav {
+  margin: 7.5px -15px;
+}
+/* line 946, ../sass/newApp.scss */
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+}
+
+@media (max-width: 767px) {
+  /* line 954, ../sass/newApp.scss */
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+  /* line 963, ../sass/newApp.scss */
+  .navbar-nav .open .dropdown-menu > li > a,
+  .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 5px 15px 5px 25px;
+  }
+  /* line 967, ../sass/newApp.scss */
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: 20px;
+  }
+  /* line 969, ../sass/newApp.scss */
+  .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-image: none;
+  }
+}
+@media (min-width: 768px) {
+  /* line 978, ../sass/newApp.scss */
+  .navbar-nav {
+    float: left;
+    margin: 0;
+  }
+  /* line 981, ../sass/newApp.scss */
+  .navbar-nav > li {
+    float: left;
+  }
+  /* line 983, ../sass/newApp.scss */
+  .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+/* line 991, ../sass/newApp.scss */
+.navbar-form {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px 15px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  /* line 1005, ../sass/newApp.scss */
+  .navbar-form .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 1010, ../sass/newApp.scss */
+  .navbar-form .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+  }
+  /* line 1015, ../sass/newApp.scss */
+  .navbar-form .form-control-static {
+    display: inline-block;
+  }
+  /* line 1018, ../sass/newApp.scss */
+  .navbar-form .input-group {
+    display: inline-table;
+    vertical-align: middle;
+  }
+  /* line 1021, ../sass/newApp.scss */
+  .navbar-form .input-group .input-group-addon,
+  .navbar-form .input-group .input-group-btn,
+  .navbar-form .input-group .form-control {
+    width: auto;
+  }
+  /* line 1026, ../sass/newApp.scss */
+  .navbar-form .input-group > .form-control {
+    width: 100%;
+  }
+  /* line 1030, ../sass/newApp.scss */
+  .navbar-form .control-label {
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 1034, ../sass/newApp.scss */
+  .navbar-form .radio,
+  .navbar-form .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+  }
+  /* line 1041, ../sass/newApp.scss */
+  .navbar-form .radio label,
+  .navbar-form .checkbox label {
+    padding-left: 0;
+  }
+  /* line 1045, ../sass/newApp.scss */
+  .navbar-form .radio input[type="radio"],
+  .navbar-form .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+  }
+  /* line 1050, ../sass/newApp.scss */
+  .navbar-form .has-feedback .form-control-feedback {
+    top: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1057, ../sass/newApp.scss */
+  .navbar-form .form-group {
+    margin-bottom: 5px;
+  }
+  /* line 1059, ../sass/newApp.scss */
+  .navbar-form .form-group:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  /* line 1066, ../sass/newApp.scss */
+  .navbar-form {
+    width: auto;
+    border: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+/* line 1078, ../sass/newApp.scss */
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 14px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  min-height: 200px;
+}
+
+/* line 1085, ../sass/newApp.scss */
+.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
+  margin-bottom: 0;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* line 1093, ../sass/newApp.scss */
+.navbar-btn {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+/* line 1096, ../sass/newApp.scss */
+.navbar-btn.btn-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 1100, ../sass/newApp.scss */
+.navbar-btn.btn-xs {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* line 1106, ../sass/newApp.scss */
+.navbar-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  /* line 1112, ../sass/newApp.scss */
+  .navbar-text {
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 1120, ../sass/newApp.scss */
+  .navbar-left {
+    float: left !important;
+  }
+
+  /* line 1123, ../sass/newApp.scss */
+  .navbar-right {
+    float: right !important;
+    margin-right: -15px;
+  }
+  /* line 1126, ../sass/newApp.scss */
+  .navbar-right ~ .navbar-right {
+    margin-right: 0;
+  }
+}
+/* line 1132, ../sass/newApp.scss */
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
+}
+/* line 1135, ../sass/newApp.scss */
+.navbar-default .navbar-brand {
+  color: #777777;
+}
+/* line 1137, ../sass/newApp.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+/* line 1143, ../sass/newApp.scss */
+.navbar-default .navbar-text {
+  color: #777777;
+}
+/* line 1147, ../sass/newApp.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #777777;
+}
+/* line 1149, ../sass/newApp.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #333333;
+  background-color: transparent;
+}
+/* line 1155, ../sass/newApp.scss */
+.navbar-default .navbar-nav > .active > a {
+  color: #555555;
+  background-color: #e7e7e7;
+}
+/* line 1158, ../sass/newApp.scss */
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  background-color: #e7e7e7;
+}
+/* line 1164, ../sass/newApp.scss */
+.navbar-default .navbar-nav > .disabled > a {
+  color: #cccccc;
+  background-color: transparent;
+}
+/* line 1167, ../sass/newApp.scss */
+.navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+/* line 1174, ../sass/newApp.scss */
+.navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+/* line 1176, ../sass/newApp.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+/* line 1180, ../sass/newApp.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #888888;
+}
+/* line 1184, ../sass/newApp.scss */
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #e7e7e7;
+}
+/* line 1188, ../sass/newApp.scss */
+.navbar-default .navbar-nav > .open > a {
+  background-color: #e7e7e7;
+  color: #555555;
+}
+/* line 1191, ../sass/newApp.scss */
+.navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #e7e7e7;
+  color: #555555;
+}
+/* line 1197, ../sass/newApp.scss */
+.navbar-default .navbar-link {
+  color: #777777;
+}
+/* line 1199, ../sass/newApp.scss */
+.navbar-default .navbar-link:hover {
+  color: #333333;
+}
+/* line 1203, ../sass/newApp.scss */
+.navbar-default .btn-link {
+  color: #777777;
+}
+/* line 1205, ../sass/newApp.scss */
+.navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+  color: #333333;
+}
+/* line 1209, ../sass/newApp.scss */
+.navbar-default .btn-link[disabled]:hover {
+  color: #cccccc;
+}
+
+@media (max-width: 767px) {
+  /* line 1217, ../sass/newApp.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777;
+  }
+  /* line 1219, ../sass/newApp.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+  /* line 1225, ../sass/newApp.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a {
+    color: #555555;
+    background-color: #e7e7e7;
+  }
+  /* line 1228, ../sass/newApp.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555555;
+    background-color: #e7e7e7;
+  }
+  /* line 1234, ../sass/newApp.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a {
+    color: #cccccc;
+    background-color: transparent;
+  }
+  /* line 1237, ../sass/newApp.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+/* line 1246, ../sass/newApp.scss */
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-default .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+  color: #cccccc;
+}
+
+/* line 1252, ../sass/newApp.scss */
+.navbar-inverse {
+  background-color: #222222;
+  border-color: #080808;
+}
+/* line 1255, ../sass/newApp.scss */
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+}
+/* line 1257, ../sass/newApp.scss */
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+/* line 1263, ../sass/newApp.scss */
+.navbar-inverse .navbar-text {
+  color: #9d9d9d;
+}
+/* line 1267, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
+/* line 1269, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+/* line 1275, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > .active > a {
+  color: #ffffff;
+  background-color: #080808;
+}
+/* line 1278, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #080808;
+}
+/* line 1284, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > .disabled > a {
+  color: #444444;
+  background-color: transparent;
+}
+/* line 1287, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444444;
+  background-color: transparent;
+}
+/* line 1294, ../sass/newApp.scss */
+.navbar-inverse .navbar-toggle {
+  border-color: #333333;
+}
+/* line 1296, ../sass/newApp.scss */
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #333333;
+}
+/* line 1300, ../sass/newApp.scss */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+/* line 1304, ../sass/newApp.scss */
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #101010;
+}
+/* line 1308, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > .open > a {
+  background-color: #080808;
+  color: #ffffff;
+}
+/* line 1311, ../sass/newApp.scss */
+.navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #080808;
+  color: #ffffff;
+}
+/* line 1317, ../sass/newApp.scss */
+.navbar-inverse .navbar-link {
+  color: #9d9d9d;
+}
+/* line 1319, ../sass/newApp.scss */
+.navbar-inverse .navbar-link:hover {
+  color: #ffffff;
+}
+/* line 1323, ../sass/newApp.scss */
+.navbar-inverse .btn-link {
+  color: #9d9d9d;
+}
+/* line 1325, ../sass/newApp.scss */
+.navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
+  color: #ffffff;
+}
+/* line 1329, ../sass/newApp.scss */
+.navbar-inverse .btn-link[disabled]:hover {
+  color: #444444;
+}
+
+@media (max-width: 767px) {
+  /* line 1337, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #080808;
+  }
+  /* line 1340, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #080808;
+  }
+  /* line 1344, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #9d9d9d;
+  }
+  /* line 1346, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+  }
+  /* line 1352, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a {
+    color: #ffffff;
+    background-color: #080808;
+  }
+  /* line 1355, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #080808;
+  }
+  /* line 1361, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a {
+    color: #444444;
+    background-color: transparent;
+  }
+  /* line 1364, ../sass/newApp.scss */
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444444;
+    background-color: transparent;
+  }
+}
+/* line 1374, ../sass/newApp.scss */
+fieldset[disabled] .navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-inverse .btn-link:focus {
+  color: #444444;
+}
+
+/* line 1381, ../sass/newApp.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1389, ../sass/newApp.scss */
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1397, ../sass/newApp.scss */
+.container-fluid:before, .container-fluid:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1405, ../sass/newApp.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1413, ../sass/newApp.scss */
+.form-horizontal .form-group:before, .form-horizontal .form-group:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1421, ../sass/newApp.scss */
+.nav:before, .nav:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1429, ../sass/newApp.scss */
+.navbar:before, .navbar:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1437, ../sass/newApp.scss */
+.navbar-header:before, .navbar-header:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1445, ../sass/newApp.scss */
+.navbar-collapse:before, .navbar-collapse:after {
+  content: " ";
+  display: table;
+}
+
+/* line 1452, ../sass/newApp.scss */
+.clearfix:after,
+.container:after,
+.container-fluid:after,
+.row:after,
+.form-horizontal .form-group:after,
+.nav:after,
+.navbar:after,
+.navbar-header:after,
+.navbar-collapse:after {
+  clear: both;
+}
+
+/* line 1464, ../sass/newApp.scss */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 1470, ../sass/newApp.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 1474, ../sass/newApp.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 1478, ../sass/newApp.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 1482, ../sass/newApp.scss */
+.show {
+  display: block !important;
+}
+
+/* line 1486, ../sass/newApp.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 1490, ../sass/newApp.scss */
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 1498, ../sass/newApp.scss */
+.hidden {
+  display: none !important;
+}
+
+/* line 1502, ../sass/newApp.scss */
+.affix {
+  position: fixed;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+/* line 1510, ../sass/newApp.scss */
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg,
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block,
+.visible-print,
+.visible-print-block,
+.visible-print-inline,
+.visible-print-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  /* line 1534, ../sass/newApp.scss */
+  .visible-xs {
+    display: block !important;
+  }
+
+  /* line 1537, ../sass/newApp.scss */
+  table.visible-xs {
+    display: table !important;
+  }
+
+  /* line 1540, ../sass/newApp.scss */
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+  /* line 1543, ../sass/newApp.scss */
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1550, ../sass/newApp.scss */
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1556, ../sass/newApp.scss */
+  .visible-xs-inline {
+    display: inline !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1562, ../sass/newApp.scss */
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1568, ../sass/newApp.scss */
+  .visible-sm {
+    display: block !important;
+  }
+
+  /* line 1571, ../sass/newApp.scss */
+  table.visible-sm {
+    display: table !important;
+  }
+
+  /* line 1574, ../sass/newApp.scss */
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+  /* line 1577, ../sass/newApp.scss */
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1584, ../sass/newApp.scss */
+  .visible-sm-block {
+    display: block !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1590, ../sass/newApp.scss */
+  .visible-sm-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1596, ../sass/newApp.scss */
+  .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1602, ../sass/newApp.scss */
+  .visible-md {
+    display: block !important;
+  }
+
+  /* line 1605, ../sass/newApp.scss */
+  table.visible-md {
+    display: table !important;
+  }
+
+  /* line 1608, ../sass/newApp.scss */
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+  /* line 1611, ../sass/newApp.scss */
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1618, ../sass/newApp.scss */
+  .visible-md-block {
+    display: block !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1624, ../sass/newApp.scss */
+  .visible-md-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1630, ../sass/newApp.scss */
+  .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1636, ../sass/newApp.scss */
+  .visible-lg {
+    display: block !important;
+  }
+
+  /* line 1639, ../sass/newApp.scss */
+  table.visible-lg {
+    display: table !important;
+  }
+
+  /* line 1642, ../sass/newApp.scss */
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+  /* line 1645, ../sass/newApp.scss */
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1652, ../sass/newApp.scss */
+  .visible-lg-block {
+    display: block !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1658, ../sass/newApp.scss */
+  .visible-lg-inline {
+    display: inline !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1664, ../sass/newApp.scss */
+  .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 767px) {
+  /* line 1670, ../sass/newApp.scss */
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1676, ../sass/newApp.scss */
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 1682, ../sass/newApp.scss */
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 1688, ../sass/newApp.scss */
+  .hidden-lg {
+    display: none !important;
+  }
+}
+@media print {
+  /* line 1694, ../sass/newApp.scss */
+  .visible-print {
+    display: block !important;
+  }
+
+  /* line 1697, ../sass/newApp.scss */
+  table.visible-print {
+    display: table !important;
+  }
+
+  /* line 1700, ../sass/newApp.scss */
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+  /* line 1703, ../sass/newApp.scss */
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+}
+@media print {
+  /* line 1710, ../sass/newApp.scss */
+  .visible-print-block {
+    display: block !important;
+  }
+}
+@media print {
+  /* line 1716, ../sass/newApp.scss */
+  .visible-print-inline {
+    display: inline !important;
+  }
+}
+@media print {
+  /* line 1722, ../sass/newApp.scss */
+  .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+@media print {
+  /* line 1728, ../sass/newApp.scss */
+  .hidden-print {
+    display: none !important;
+  }
+}
+/* ================================================================================== END BOOTSTRAP MENU STYLE*/
+/* ================================================================================== START  FANCY BOX*/
+/* line 1737, ../sass/newApp.scss */
+#lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  line-height: 0;
+}
+/* line 1744, ../sass/newApp.scss */
+#lightbox img {
+  width: auto;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+/* line 1750, ../sass/newApp.scss */
+#lightbox a img {
+  border: none;
+}
+
+/* line 1755, ../sass/newApp.scss */
+#outerImageContainer {
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+/* line 1763, ../sass/newApp.scss */
+#imageContainer {
+  padding: 10px;
+}
+
+/* line 1767, ../sass/newApp.scss */
+#loading {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 1777, ../sass/newApp.scss */
+#hoverNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 1786, ../sass/newApp.scss */
+#imageContainer > #hoverNav {
+  left: 0;
+}
+
+/* line 1790, ../sass/newApp.scss */
+#hoverNav a {
+  outline: none;
+}
+
+/* line 1794, ../sass/newApp.scss */
+#prevLink,
+#nextLink {
+  width: 49%;
+  height: 100%;
+  background-image: url(../images/lightbox/blank.gif);
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 1803, ../sass/newApp.scss */
+#prevLink {
+  left: 0;
+  float: left;
+}
+
+/* line 1808, ../sass/newApp.scss */
+#nextLink {
+  right: 0;
+  float: right;
+}
+
+/* line 1813, ../sass/newApp.scss */
+#prevLink {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+/* line 1815, ../sass/newApp.scss */
+#prevLink:visited:hover {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+
+/* line 1820, ../sass/newApp.scss */
+#nextLink {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+/* line 1822, ../sass/newApp.scss */
+#nextLink:visited:hover {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+
+/* line 1827, ../sass/newApp.scss */
+#imageDataContainer {
+  font: 10px Verdana, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 1.4em;
+  overflow: auto;
+  width: 100%;
+}
+
+/* line 1836, ../sass/newApp.scss */
+#imageData {
+  padding: 0 10px;
+  color: #666;
+}
+/* line 1839, ../sass/newApp.scss */
+#imageData #imageDetails {
+  width: 70%;
+  float: left;
+  text-align: left;
+}
+/* line 1844, ../sass/newApp.scss */
+#imageData #caption {
+  font-weight: bold;
+}
+/* line 1847, ../sass/newApp.scss */
+#imageData #numberDisplay {
+  display: block;
+  clear: left;
+  padding-bottom: 1.0em;
+}
+/* line 1852, ../sass/newApp.scss */
+#imageData #bottomNavClose {
+  width: 66px;
+  float: right;
+  padding-bottom: 0.7em;
+  outline: none;
+}
+
+/* line 1860, ../sass/newApp.scss */
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+}
+
+/* ================================================================================== END FANCY BOX*/
+/* ================================================================================== START  EASYLIGHT*/
+/* line 1874, ../sass/newApp.scss */
+#lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  text-align: center;
+  line-height: 0;
+}
+/* line 1881, ../sass/newApp.scss */
+#lightbox img {
+  width: auto;
+  height: auto;
+  top: 0px;
+  left: 0px;
+}
+/* line 1887, ../sass/newApp.scss */
+#lightbox a img {
+  border: none;
+}
+
+/* line 1892, ../sass/newApp.scss */
+#outerImageContainer {
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+/* line 1900, ../sass/newApp.scss */
+#imageContainer {
+  padding: 10px;
+}
+
+/* line 1904, ../sass/newApp.scss */
+#loading {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+/* line 1914, ../sass/newApp.scss */
+#hoverNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+/* line 1923, ../sass/newApp.scss */
+#imageContainer > #hoverNav {
+  left: 0;
+}
+
+/* line 1927, ../sass/newApp.scss */
+#hoverNav a {
+  outline: none;
+}
+
+/* line 1931, ../sass/newApp.scss */
+#prevLink,
+#nextLink {
+  width: 49%;
+  height: 100%;
+  background-image: url(../images/lightbox/blank.gif);
+  /* Trick IE into showing hover */
+  display: block;
+}
+
+/* line 1940, ../sass/newApp.scss */
+#prevLink {
+  left: 0;
+  float: left;
+}
+
+/* line 1945, ../sass/newApp.scss */
+#nextLink {
+  right: 0;
+  float: right;
+}
+
+/* line 1950, ../sass/newApp.scss */
+#prevLink {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+/* line 1952, ../sass/newApp.scss */
+#prevLink:visited:hover {
+  background: url(../images/lightbox/prevlabel.gif) left 15% no-repeat;
+}
+
+/* line 1957, ../sass/newApp.scss */
+#nextLink {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+/* line 1959, ../sass/newApp.scss */
+#nextLink:visited:hover {
+  background: url(../images/lightbox/nextlabel.gif) right 15% no-repeat;
+}
+
+/* line 1964, ../sass/newApp.scss */
+#imageDataContainer {
+  font: 10px Verdana, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 1.4em;
+  overflow: auto;
+  width: 100%;
+}
+
+/* line 1973, ../sass/newApp.scss */
+#imageData {
+  padding: 0 10px;
+  color: #666;
+}
+/* line 1976, ../sass/newApp.scss */
+#imageData #imageDetails {
+  width: 70%;
+  float: left;
+  text-align: left;
+}
+/* line 1981, ../sass/newApp.scss */
+#imageData #caption {
+  font-weight: bold;
+}
+/* line 1984, ../sass/newApp.scss */
+#imageData #numberDisplay {
+  display: block;
+  clear: left;
+  padding-bottom: 1.0em;
+}
+/* line 1989, ../sass/newApp.scss */
+#imageData #bottomNavClose {
+  width: 66px;
+  float: right;
+  padding-bottom: 0.7em;
+  outline: none;
+}
+
+/* line 1997, ../sass/newApp.scss */
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+}
+
+/*==================================================== End General Styling*/
+/*==================================================== Start Header */
+/*Dropdown Css*/
+/* line 2013, ../sass/newApp.scss */
+.dropdown:hover > .dropdown-menu {
+  display: flex;
+}
+/* line 2015, ../sass/newApp.scss */
+.dropdown:hover > .dropdown-menu .dropdown-submenu .dropdown-menu {
+  display: flex;
+}
+
+/* line 2020, ../sass/newApp.scss */
+.dropdown-submenu {
+  position: relative;
+  padding: 3px 10px;
+  width: 33%;
+}
+
+/* line 2026, ../sass/newApp.scss */
+.dropdown-menu .dropdown-submenu .dropdown-menu {
+  right: 0 !important;
+  width: 100%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  transform: none;
+}
+
+/* line 2036, ../sass/newApp.scss */
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  margin-top: 30px;
+  background-color: #b2a074;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+/* line 2045, ../sass/newApp.scss */
+.dropdown-submenu:hover > .dropdown-menu {
+  display: flex;
+}
+/* line 2048, ../sass/newApp.scss */
+.dropdown-submenu:hover > a:after {
+  border-left-color: #fff;
+}
+/* line 2052, ../sass/newApp.scss */
+.dropdown-submenu.pull-left {
+  float: none;
+}
+/* line 2054, ../sass/newApp.scss */
+.dropdown-submenu.pull-left > .dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+/*./Dropdown Css*/
+@media (min-width: 960px) {
+  /* line 2067, ../sass/newApp.scss */
+  #bars,
+  #menu {
+    display: none;
+  }
+}
+@media (max-width: 960px) {
+  /* line 2074, ../sass/newApp.scss */
+  #menu-main-menu-desktop {
+    display: none;
+  }
+}
+/* line 2079, ../sass/newApp.scss */
+#bars {
+  position: absolute;
+  right: 2%;
+  top: -39px;
+  font-size: 18px;
+}
+
+/* line 2086, ../sass/newApp.scss */
+.mm-panels,
+.mm-navbar.mm-hasbtns {
+  background-color: #b2a074;
+}
+
+/* line 2091, ../sass/newApp.scss */
+.mm-navbars-top {
+  border: none;
+}
+
+@media (min-width: 768px) {
+  /* line 2096, ../sass/newApp.scss */
+  .navbar-nav > li > a {
+    line-height: 14px;
+    font-weight: 500;
+    color: #646464;
+    text-transform: uppercase;
+    display: block;
+    width: 96px;
+    word-wrap: break-word;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+}
+/* line 2111, ../sass/newApp.scss */
+header#header {
+  padding: 0;
+  margin: 0 15px;
+  background-color: #ffffff;
+  font-family: "Montserrat", Arial;
+  position: relative;
+  z-index: 1;
+}
+/* line 2118, ../sass/newApp.scss */
+header#header .logo-wrapper {
+  display: inline-block;
+  float: left;
+}
+/* line 2122, ../sass/newApp.scss */
+header#header #nav > li > ul {
+  width: 1272px;
+  margin: -2px auto 0;
+  right: 0;
+  display: block;
+}
+/* line 2128, ../sass/newApp.scss */
+header#header .home-button {
+  float: left;
+  padding-right: 5px;
+}
+/* line 2132, ../sass/newApp.scss */
+header#header .links {
+  float: right;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #646464;
+}
+/* line 2137, ../sass/newApp.scss */
+header#header .links li {
+  padding: 5px 5px 5px !important;
+}
+/* line 2139, ../sass/newApp.scss */
+header#header .links li a {
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 0.91em;
+  line-height: 1.45em;
+  color: #646464;
+}
+/* line 2145, ../sass/newApp.scss */
+header#header .links li a:hover {
+  color: #a7a7a7;
+}
+/* line 2151, ../sass/newApp.scss */
+header#header .logo {
+  text-decoration: none;
+  overflow: hidden;
+  float: left;
+}
+/* line 2155, ../sass/newApp.scss */
+header#header .logo img {
+  width: 250px;
+}
+/* line 2159, ../sass/newApp.scss */
+header#header h2.logo {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* line 2163, ../sass/newApp.scss */
+header#header .logo strong {
+  position: absolute;
+  top: 0;
+  left: -120px;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -999em;
+  overflow: hidden;
+}
+/* line 2174, ../sass/newApp.scss */
+header#header p.cta_phone {
+  margin: 30px 0px 0px 60px;
+  float: left;
+  font-size: 1.33em;
+  line-height: 1.5em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #474747;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 2185, ../sass/newApp.scss */
+header#header .welcome-msg {
+  float: left;
+  padding: 9px 11px 0px 11px;
+  width: 198px;
+  margin: 31px 0 0 20px;
+  color: #646464;
+  border-left: 1px solid #c8c7c7;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 15px;
+  font-family: "Montserrat", ​sans-serif;
+}
+/* line 2197, ../sass/newApp.scss */
+header#header .top-navi-wrapper {
+  margin: 0;
+  padding: 0;
+  zoom: 1 !important;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.1);
+  background: #E9E8E8;
+  position: relative;
+  height: 26px;
+}
+/* line 2207, ../sass/newApp.scss */
+header#header .header-wrapper {
+  margin: 0;
+  padding: 0;
+  zoom: 1 !important;
+  z-index: 997;
+  background: rgba(0, 0, 0, 0.1);
+  background: #E9E8E8;
+  position: relative;
+}
+/* line 2217, ../sass/newApp.scss */
+header .menuWrapper {
+  float: right;
+  margin-bottom: 0px;
+}
+/* line 2222, ../sass/newApp.scss */
+header#header #search_mini_form {
+  float: right;
+}
+/* line 2225, ../sass/newApp.scss */
+header#header .header-wrapper.menu-over {
+  background: rgba(255, 255, 255, 0.95);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2ffffff, endColorstr=#f2ffffff);
+}
+/* line 2228, ../sass/newApp.scss */
+header#header .header-wrapper.menu-over .form-search {
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+/* line 2233, ../sass/newApp.scss */
+header#header .form-search {
+  border: 1px solid #d2d2d2;
+  width: 185px;
+  height: 30px;
+  float: right;
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.8);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCffffff, endColorstr=#CCffffff);
+  zoom: 1;
+}
+/* line 2244, ../sass/newApp.scss */
+header#header .header-wrapper .nav-hover-text-box {
+  opacity: 0;
+  display: none;
+  filter: alpha(opacity=0);
+  -moz-transition: opacity 300ms ease;
+  -webkit-transition: opacity 300ms ease;
+  -o-transition: opacity 300ms ease;
+  transition: opacity 300ms ease;
+  display: none;
+}
+/* line 2254, ../sass/newApp.scss */
+header#header .header-wrapper.menu-over .nav-hover-text-box {
+  display: block;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  position: absolute;
+  right: 0;
+  top: 14px;
+  z-index: 99999;
+  font-size: 1.33em;
+  line-height: 1.5em;
+  color: #474747;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+/* line 2268, ../sass/newApp.scss */
+header#header .header-wrapper.menu-over .nav-hover-text-box a {
+  color: #474747;
+}
+/* line 2274, ../sass/newApp.scss */
+header#header .form-search .indent {
+  padding: 6px 10px 8px 7px;
+}
+/* line 2277, ../sass/newApp.scss */
+header#header .form-search label {
+  display: none;
+}
+/* line 2280, ../sass/newApp.scss */
+header#header .form-search input {
+  width: 150px;
+  color: #878787;
+  padding: 0;
+  border: none;
+  background: none;
+  float: left;
+  line-height: 16px;
+  font-size: 11px;
+}
+/* line 2290, ../sass/newApp.scss */
+header#header .form-search button {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  float: right;
+  overflow: hidden;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url(../images/top_search_button.png);
+}
+/* line 2299, ../sass/newApp.scss */
+header#header .form-search button span {
+  display: none;
+}
+/* line 2303, ../sass/newApp.scss */
+header#header .form-search .search-autocomplete {
+  z-index: 999;
+}
+/* line 2305, ../sass/newApp.scss */
+header#header .form-search .search-autocomplete ul {
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+/* line 2309, ../sass/newApp.scss */
+header#header .form-search .search-autocomplete li {
+  padding: 3px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+/* line 2313, ../sass/newApp.scss */
+header#header .form-search .search-autocomplete li .amount {
+  float: right;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+/* line 2321, ../sass/newApp.scss */
+header#header .top-cart {
+  float: right;
+  position: relative;
+  z-index: 999;
+  padding: 5px 5px 5px 5px;
+  -moz-transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-weight: 600;
+  color: #646464;
+  letter-spacing: 0.5px;
+  font-family: "Montserrat", Arial;
+}
+/* line 2334, ../sass/newApp.scss */
+header#header .top-cart .block-title {
+  font-size: 0.91em;
+  line-height: 1.45em;
+}
+/* line 2337, ../sass/newApp.scss */
+header#header .top-cart .block-title a {
+  text-transform: uppercase;
+}
+/* line 2341, ../sass/newApp.scss */
+header#header .top-cart.active .block-title a {
+  color: #fff;
+}
+/* line 2344, ../sass/newApp.scss */
+header#header .top-cart .block-title a {
+  -moz-transition: none;
+  -webkit-transition: none;
+  -o-transition: 0;
+  transition: none;
+  color: #646464;
+}
+/* line 2350, ../sass/newApp.scss */
+header#header .top-cart .block-title a:hover {
+  color: #a7a7a7;
+}
+/* line 2354, ../sass/newApp.scss */
+header#header .top-cart .block-content {
+  z-index: 999;
+  position: absolute;
+  right: 0;
+  top: 89px;
+  width: 265px;
+  padding: 0;
+}
+/* line 2362, ../sass/newApp.scss */
+header#header .top-cart .mobile-indent {
+  display: none;
+}
+/* line 2365, ../sass/newApp.scss */
+header#header .top-cart .cart-empty {
+  padding: 15px;
+  color: #fff;
+}
+/* line 2371, ../sass/newApp.scss */
+header#header .top-cart .block-content .mini-products-list .product-image {
+  float: left;
+}
+/* line 2374, ../sass/newApp.scss */
+header#header .top-cart .block-content .mini-products-list .product-details {
+  float: right;
+  width: 146px;
+}
+/* line 2379, ../sass/newApp.scss */
+header#header .top-cart .block-content .block-subtitle {
+  padding: 0 0 0 0;
+}
+/* line 2381, ../sass/newApp.scss */
+header#header .top-cart .block-content .block-subtitle .close-btn {
+  float: right;
+  cursor: pointer;
+  padding: 0 0 0 0;
+}
+/* line 2387, ../sass/newApp.scss */
+header#header .top-cart .block-content .subtotal {
+  text-align: left;
+  float: left;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+/* line 2392, ../sass/newApp.scss */
+header#header .top-cart .block-content .subtotal .price {
+  font-size: 1.16em;
+  line-height: 1.57em;
+  font-weight: 700 !important;
+  padding-top: 7px;
+  display: block;
+}
+/* line 2400, ../sass/newApp.scss */
+header#header .top-cart .block-content .actions {
+  padding: 12px 11px 9px 34px;
+  background-color: #e5e5e5;
+  border: 1px solid #4f4c4d;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6ffffff, endColorstr=#e6ffffff);
+}
+/* line 2405, ../sass/newApp.scss */
+header#header .top-cart .block-content .actions a {
+  text-decoration: none;
+}
+/* line 2407, ../sass/newApp.scss */
+header#header .top-cart .block-content .actions a:hover {
+  text-decoration: underline;
+}
+/* line 2412, ../sass/newApp.scss */
+header#header .top-cart .block-content button.button {
+  float: right;
+}
+/* line 2416, ../sass/newApp.scss */
+header#header .top-cart .btn-remove {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+}
+
+@media screen and (min-width: 1600px) {
+  /* line 868, ../scss/styles.scss */
+  /* line 2427, ../sass/newApp.scss */
+  header#header {
+    margin: 0 -9px;
+  }
+}
+/* line 881, ../scss/styles.scss */
+@media screen and (min-width: 1600px) {
+  /* line 881, ../scss/styles.scss */
+  /* line 2436, ../sass/newApp.scss */
+  header#header .logo-wrapper {
+    margin-left: 25px;
+  }
+}
+@media screen and (max-width: 975px) {
+  /* line 891, ../scss/styles.scss */
+  /* line 2443, ../sass/newApp.scss */
+  header#header .logo-wrapper {
+    margin-top: 0;
+  }
+}
+/* line 896, ../scss/styles.scss */
+@media screen and (max-width: 1272px) {
+  /* line 896, ../scss/styles.scss */
+  /* line 2452, ../sass/newApp.scss */
+  header#header #nav > li > ul {
+    width: 100%;
+  }
+}
+/* line 2457, ../sass/newApp.scss */
+.header .top-cart .btn-edit {
+  position: absolute;
+  left: 7px;
+  top: 5px;
+}
+
+/* line 1077, ../scss/styles.scss */
+/* line 2466, ../sass/newApp.scss */
+header#header .top-cart .inner-wrapper {
+  padding: 14px 0 12px;
+}
+/* line 2469, ../sass/newApp.scss */
+header#header .top-cart .mini-products-list li {
+  padding: 0 12px 9px 19px;
+  margin: 0;
+  overflow: hidden;
+  clear: both;
+  color: #fff;
+  position: relative;
+}
+/* line 2476, ../sass/newApp.scss */
+header#header .top-cart .mini-products-list li .item-box {
+  border: 1px solid #000;
+  padding: 9px 9px 11px 8px;
+}
+/* line 2481, ../sass/newApp.scss */
+header#header .top-cart .product-image {
+  padding: 0;
+  margin: 4px 0 0;
+  background-color: #f8f6f6;
+}
+/* line 2486, ../sass/newApp.scss */
+header#header .top-cart .product-name {
+  margin-bottom: 0;
+}
+/* line 2488, ../sass/newApp.scss */
+header#header .top-cart .product-name a {
+  color: #605d5d;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* line 2492, ../sass/newApp.scss */
+header#header .top-cart .product-name a:hover {
+  text-decoration: underline;
+}
+/* line 2497, ../sass/newApp.scss */
+header#header .top-cart .product-box .price {
+  color: #fff;
+}
+/* line 2500, ../sass/newApp.scss */
+header#header .top-cart .btn-remove {
+  background: url(../images/top_cart_remove.gif) left top no-repeat;
+  height: 5px;
+  width: 5px;
+}
+/* line 2505, ../sass/newApp.scss */
+header#header .top-cart .btn-edit {
+  position: absolute;
+  left: 7px;
+  top: 15px;
+  width: 7px;
+  height: 7px;
+  background: url("../images/top_cart_edit.png") no-repeat scroll 0 0 transparent;
+}
+/* line 2513, ../sass/newApp.scss */
+header#header .top-cart button.button {
+  margin-bottom: 6px;
+}
+/* line 2515, ../sass/newApp.scss */
+header#header .top-cart button.button span {
+  display: block;
+  float: none;
+}
+/* line 2520, ../sass/newApp.scss */
+header#header .top-cart .actions a {
+  text-transform: uppercase;
+  text-align: right;
+  display: block;
+  font-size: 0.91em;
+  line-height: 1.45em;
+}
+
+/* line 1078, ../scss/styles.scss */
+/* line 1086, ../scss/styles.scss */
+/* line 1087, ../scss/styles.scss */
+/* line 1088, ../scss/styles.scss */
+/* line 1089, ../scss/styles.scss */
+/* line 1090, ../scss/styles.scss */
+/* line 1092, ../scss/styles.scss */
+/* line 1094, ../scss/styles.scss */
+/* line 1099, ../scss/styles.scss */
+/* line 1100, ../scss/styles.scss */
+/* line 1101, ../scss/styles.scss */
+/* line 1102, ../scss/styles.scss */
+/*==================================================== End Header */
+/*==================================================== Start woocommerce style  */
+/* line 2558, ../sass/newApp.scss */
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+  cursor: pointer;
+  margin-bottom: 18px;
+  background-color: #909090;
+  float: left;
+  height: 35px;
+  font: 700 14px/22px "Montserrat", Helvetica, sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  color: #fff;
+  transition: all 300ms ease;
+  border-radius: 0;
+  padding: 6px 25px;
+}
+/* line 2575, ../sass/newApp.scss */
+.woocommerce nav.woocommerce-pagination ul {
+  border: none;
+  float: left;
+  margin-left: 0;
+}
+/* line 2580, ../sass/newApp.scss */
+.woocommerce .woocommerce-pagination ul.page-numbers li {
+  float: left;
+  border: none;
+}
+
+/* line 2586, ../sass/newApp.scss */
+.woocommerce-page .woocommerce-pagination ul.page-numbers li {
+  float: left;
+  border: none;
+}
+
+/* line 2593, ../sass/newApp.scss */
+.woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover {
+  color: #231F20;
+}
+/* line 2598, ../sass/newApp.scss */
+.woocommerce nav.woocommerce-pagination ul li span.current {
+  color: #231F20;
+}
+/* line 2601, ../sass/newApp.scss */
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+  color: #c3c3c3;
+}
+
+/*==================================================== new pages  */
+/*==================================================== vario */
+/* line 2611, ../sass/newApp.scss */
+.thinLine {
+  content: "";
+  background: #b2a074;
+  width: 65px;
+  height: 2px;
+  position: absolute;
+}
+
+/* line 2619, ../sass/newApp.scss */
+.vario {
+  background: #edeced;
+}
+/* line 2622, ../sass/newApp.scss */
+.vario .slick-slider {
+  padding: 0;
+}
+/* line 2625, ../sass/newApp.scss */
+.vario h1,
+.vario p {
+  color: #3e383a !important;
+  margin: auto;
+  margin-top: 50px;
+}
+/* line 2631, ../sass/newApp.scss */
+.vario h1 {
+  font-size: 3.5rem !important;
+  line-height: 3.5rem !important;
+  font-weight: 400 !important;
+  position: relative;
+}
+/* line 2638, ../sass/newApp.scss */
+.vario_content h1 {
+  text-align: center;
+}
+/* line 2643, ../sass/newApp.scss */
+.vario_second_content h1 {
+  text-align: center;
+}
+/* line 2647, ../sass/newApp.scss */
+.vario_features {
+  padding: 0 10%;
+}
+/* line 2649, ../sass/newApp.scss */
+.vario_features h1 {
+  margin-bottom: 60px !important;
+}
+/* line 2652, ../sass/newApp.scss */
+.vario_features .title-one:after {
+  content: "";
+  background: #b2a074;
+  width: 65px;
+  height: 2px;
+  position: absolute;
+  bottom: -35%;
+  transform: translate(-100%, 50%);
+  left: 4%;
+}
+/* line 2662, ../sass/newApp.scss */
+.vario_features .title-two:after {
+  content: "";
+  background: #b2a074;
+  width: 65px;
+  height: 2px;
+  position: absolute;
+  bottom: -35%;
+  transform: translate(-100%, 50%);
+  right: -24%;
+}
+/* line 2672, ../sass/newApp.scss */
+.vario_features .row {
+  height: 70vh;
+}
+/* line 2674, ../sass/newApp.scss */
+.vario_features .row .columns {
+  margin-top: 25%;
+}
+/* line 2679, ../sass/newApp.scss */
+.vario__img {
+  text-align: center;
+}
+
+/*
+  * single internal 
+  */
+/* line 2690, ../sass/newApp.scss */
+.single-internal {
+  background: #edeced;
+}
+/* line 2692, ../sass/newApp.scss */
+.single-internal h1, .single-internal p {
+  color: #474747 !important;
+}
+/* line 2695, ../sass/newApp.scss */
+.single-internal .internal-wrapper {
+  height: 100vh;
+}
+/* line 2697, ../sass/newApp.scss */
+.single-internal .internal-wrapper h1 {
+  font-size: 4.5rem;
+  position: relative;
+  margin-top: 20%;
+}
+/* line 2701, ../sass/newApp.scss */
+.single-internal .internal-wrapper h1:before {
+  content: "";
+  background: #b2a074;
+  width: 65px;
+  height: 2px;
+  position: absolute;
+  transform: translate(-100%, 50%);
+  left: 4%;
+  bottom: -15%;
+}
+/* line 2712, ../sass/newApp.scss */
+.single-internal .internal-wrapper .parag {
+  margin-top: 50px;
+  position: relative;
+}
+/* line 2715, ../sass/newApp.scss */
+.single-internal .internal-wrapper .parag:before {
+  content: "";
+  background: #b2a074;
+  width: 65px;
+  height: 2px;
+  position: absolute;
+  transform: translate(-100%, 50%);
+  left: 4%;
+  bottom: -25px;
+}
+/* line 2730, ../sass/newApp.scss */
+.single-internal .cat-circles .circle {
+  width: 80px;
+  background: green;
+  height: 80px;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+/*
+    style page: door styles
+*/
+/* line 2743, ../sass/newApp.scss */
+.door_styles {
+  background: #edeced;
+}
+/* line 2745, ../sass/newApp.scss */
+.door_styles h1, .door_styles h2, .door_styles h3, .door_styles h4, .door_styles p {
+  color: #474747 !important;
+}
